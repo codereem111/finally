@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You, My Love ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Preloader Styles */
+    #preloader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 999;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .heart {
+      font-size: 3rem;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+    .story-section, .quote-section, .photo-section {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 40px 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .photo-section img {
+      width: 100%;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .ask-button {
+      background: #ff4d6d;
+      border: none;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      transition: 0.3s ease;
+    }
+    .ask-button:hover {
+      background: #e60042;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div class="heart">❤️</div>
+</div>
+
+<!-- Content -->
+<div class="container py-5">
+
+  <div class="hero">
+    <h1 class="display-4">Ejidee mhi ❤️</h1>
+    <p class="lead">I built this for someone incredibly special—You.</p>
+  </div>
+
+  <!-- Story Section -->
+ <!-- Story Section -->
+<div class="story-section">
+    <h2 class="text-center mb-4">Our Story...</h2>
+    <p>
+      It all started with a simple conversation—one of those chats you never expect to mean much. But little did I know, that moment was the beginning of something magical.
+    </p>
+    <p>
+      You laughed, and the world seemed a bit brighter. You smiled, and I forgot everything else. Days turned into weeks, and before I even realized it... I was smiling at my phone more than usual, looking forward to every message, every moment with you.
+    </p>
+    <p>
+      It’s been 3 years we’ve known each other now—and honestly, it still feels like a beautiful dream I never want to wake up from. So much has happened, yet one thing has stayed the same: my heart keeps choosing you, every single time.
+    </p>
+    <p>
+      Somehow, in the middle of ordinary days, you became my favorite part of life. Your kindness, your warmth, your soul—it’s all so beautiful. And somewhere along the way, I found myself falling... not just for your face, but for the heart behind it.
+    </p>
+    <p class="mb-0 text-end"><em>—And here we are...</em></p>
+  </div>
+  
+  <!-- Photos Section -->
+  <div class="photo-section row">
+    <h2 class="text-center mb-4">Some Memories ❤️</h2>
+    <div class="col-md-6">
+      <img src="1.jpg" alt="my baby">
+    </div>
+    <div class="col-md-6">
+      <img src="2.jpg" alt="mybaby">
+    </div>
+  </div>
+
+  <!-- Quote Section -->
+  <div class="quote-section text-center">
+    <blockquote class="blockquote">
+      <p class="mb-0">"You are my today, and all of my tomorrows."</p>
+    </blockquote>
+    <footer class="blockquote-footer mt-2">— Leo Christopher</footer>
+  </div>
+
+  <!-- Final Ask Section -->
+  <div class="text-center my-5">
+    <h2>So now, I have one question for you...</h2>
+    <h3 class="mt-3">Will you be mine? 🥺❤️ &#128514;</h3>
+   
+  </div>
+
+</div>
+
+<!-- Bootstrap + Preloader Script -->
+<script>
+  window.addEventListener("load", function(){
+    document.getElementById("preloader").style.display = "none";
+  });
+</script>
+
+</body>
+</html>
